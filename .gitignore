@@ -3,6 +3,26 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Environment — NEVER commit this
+.env
+
+# Virtual environment — recreate with pip install
+.venv/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# OS
+.DS_Store
+
 # C extensions
 *.so
 
